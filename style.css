@@ -1,0 +1,42 @@
+
+  body{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+  }
+  h1{
+    font-family: Arial;
+    color:black;
+  }
+  p {
+    font-size: 30px;
+  }
+  img {
+    height: 200px;
+    border:1px solid #021a40;
+    padding:3px;
+    background-color: white;
+  }
+  .social-icon{
+    height:100%;
+  }
+  /* will try to put in drop down menus in projects*/
+  .intro {
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    background: #444;
+  }
+  .project1{
+    background: #DDD;
+  }
+  .project2{
+    background: #AAA;
+  }
+  .project3{
+    background: #777;
+  }
+  .project4{
+    background: #333;
+  }
