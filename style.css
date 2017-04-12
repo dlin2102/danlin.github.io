@@ -99,7 +99,7 @@ body {
   max-width: 100%;
 }
 
-.typewriter {
+/*.typewriter {
   margin: auto;
   text-align: center;
   width: 750px;
@@ -115,16 +115,16 @@ body {
   animation:
     typing 5.5s steps(40, end),
     blink-caret .75s step-end infinite;
-}
+}*/
 
 /* The typing effect */
-@keyframes typing {
+/*@keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
+}*/
 
 /* The typewriter cursor effect */
-@keyframes blink-caret {
+/*@keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(144,25,29); }
-}
+}*/
