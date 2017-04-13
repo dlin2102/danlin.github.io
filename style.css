@@ -1,9 +1,4 @@
 
-  h2{
-    font-family: Arial;
-    color: white;
-    margin-top: 30px;
-  }
   .intro1{
     padding-top: 200px;
   }
@@ -11,49 +6,42 @@
     font-size: 30px;
   }
 
-  img {
-    height: 200px;
-    padding:3px;
-  }
-  .social-icon{
-    height:100%;
-  }
-
-main{
-  position:relative;
-  padding:0;
-  margin: 0;
-
-}
   .intro {
     text-align: center;
     background-size: 1600% 1600%;
     height: 700px;
     width: 100%;
     z-index: -1;
-    animation: ColorFade 5s ease infinite;
-    background: linear-gradient(270deg, #e71515, #f08005, #eced15);
-    -webkit-animation: ColorFade 5s ease infinite;
-  	-moz-animation: ColorFade 5s ease infinite;
+    animation: colorchange 20s ease infinite;
+    -webkit-animation: colorchange 20s ease infinite;
+    -moz-animation: colorchange 20s ease infinite;
   }
+  @keyframes colorchange
+      {
+        0%   {background: #FFC15E;}
+        25%  {background: #EE6055;}
+        50%  {background: #60D394;}
+        75%  {background: #AAF683;}
+        100% {background: #FAFF70;}
+      }
 
-  @keyframes ColorFade {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
+      @-webkit-keyframes colorchange
+      {
+        0%   {background: #DD614A;}
+        25%  {background: #F3DE8A;}
+        50%  {background: #F48668;}
+        75%  {background: #F4A698;}
+        100% {background: #73A580;}
+      }
 
-  @-webkit-keyframes ColorFade {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-  @-moz-keyframes ColorFade {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
+      @-moz-keyframes colorchange
+      {
+        0%   {background: #DD614A;}
+        25%  {background: #F3DE8A;}
+        50%  {background: #F48668;}
+        75%  {background: #F4A698;}
+        100% {background: #73A580;}
+      }
 
 nav{
   position: fixed;
@@ -99,32 +87,22 @@ body {
   max-width: 100%;
 }
 
-/*.typewriter {
-  margin: auto;
-  text-align: center;
-  width: 750px;
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h2 {
+	font: bold 2em monospace;
+
+  color: white;
+	border-right: .1em solid #848484;
+	width: calc(0.55em * 14);
+	width: 52ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 3s steps(31, end),
+	           blink-caret .5s step-end infinite alternate;
 }
 
-.typewriter h2 {
-  padding-top: 30px;
-  overflow: hidden;
-  border-right: .15em solid rgb(144,25,29);
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .1em;
-  animation:
-    typing 5.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}*/
-
-/* The typing effect */
-/*@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}*/
-
-/* The typewriter cursor effect */
-/*@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(144,25,29); }
-}*/
+.hidden{
+  display: none;
+}
