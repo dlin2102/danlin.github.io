@@ -1,13 +1,15 @@
+#contactInfo{
+  margin-top: 60px;
+}
+#myPortfolio {
+    margin-top: 60px;
+}
 
 #aboutMe{
-  margin-top: 45px;
+  margin-top: 60px;
 }
 .space {
     padding-bottom: 200px;
-}
-
-p {
-    font-size: 30px;
 }
 
 #whalePic1{
@@ -42,7 +44,7 @@ p {
         background: #AAF683;
     }
     100% {
-        background: #FAFF70;
+        background: #FFC15E;
     }
 }
 
@@ -60,7 +62,7 @@ p {
         background: #F4A698;
     }
     100% {
-        background: #73A580;
+        background: #FFC15E;
     }
 }
 
@@ -78,7 +80,7 @@ p {
         background: #F4A698;
     }
     100% {
-        background: #73A580;
+        background: #FFC15E;
     }
 }
 
