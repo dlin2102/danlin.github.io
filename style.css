@@ -10,9 +10,11 @@ p {
     font-size: 30px;
 }
 
-#homepage {
-    background: url("https://img1.etsystatic.com/132/1/7965920/il_340x270.1019515903_n4et.jpg");
-    z-index: 100;
+#whalePic1{
+  height: 80px;
+}
+#whalePic2{
+  height: 80px;
 }
 
 .intro {
@@ -150,7 +152,6 @@ body {
 .intro2 {
     font: bold 2em monospace;
     -webkit-animation-delay: 7s;
-    /* Safari 4.0 - 8.0 */
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
@@ -163,7 +164,6 @@ body {
 .intro2 {
     font: bold 2em monospace;
     -webkit-animation-delay: 7s;
-    /* Safari 4.0 - 8.0 */
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
@@ -176,7 +176,6 @@ body {
 .intro3 {
     font: bold 2em monospace;
     -webkit-animation-delay: 7s;
-    /* Safari 4.0 - 8.0 */
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
