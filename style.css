@@ -57,26 +57,26 @@
     height: 700px;
     width: 100%;
     z-index: -1;
-    animation: colorchange 20s ease infinite;
-    -webkit-animation: colorchange 20s ease infinite;
-    -moz-animation: colorchange 20s ease infinite;
+    animation: colorchange 15s ease infinite;
+    -webkit-animation: colorchange 15s ease infinite;
+    -moz-animation: colorchange 15s ease infinite;
 }
 
 @keyframes colorchange {
-    0% {
-        background: #FFC15E;
+    0% {     /*coral*/
+        background: #ff6666;
     }
-    25% {
-        background: #EE6055;
+    25% { /*rusty red*/
+        background: #E03616;
     }
-    50% {
-        background: #60D394;
+    50% { /*gold*/
+        background: #F9C80E;
     }
     75% {
-        background: #AAF683;
+        background: #2274A5;
     }
     100% {
-        background: #FFC15E;
+        background: #03CEA4;
     }
 }
 
