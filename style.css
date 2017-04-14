@@ -212,11 +212,10 @@ body {
 
 .intro1 {
     font: bold 2em monospace;
-    font: bold 2em monospace;
     color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
-    width: 52ch;
+    width: 54ch;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
@@ -225,7 +224,6 @@ body {
 .intro2 {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
-    -webkit-animation-delay: 7s;
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
@@ -238,7 +236,6 @@ body {
 .intro3 {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
-    -webkit-animation-delay: 7s;
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
@@ -248,7 +245,7 @@ body {
     -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
 }
 
-/*Hidding other Sections - corresponding jquery in app.js*/
+/*Hiding other Sections - corresponding jquery in app.js*/
 
 .hidden {
     display: none;
