@@ -1,14 +1,24 @@
-#contactInfo{
-  margin-top: 60px;
-}
 #myPortfolio {
     margin-top: 60px;
+    background: #EA3546;
+    background: -webkit-linear-gradient(white, #EA3546);
+    background: -moz-linear-gradient(white, #EA3546);
+    background: linear-gradient(white, #EA3546);
 }
 
-#aboutMe{
+#aboutMe {
   margin-top: 60px;
+  background: #EC7D10;
+  background: -webkit-linear-gradient(white, #EC7D10);
+  background: -moz-linear-gradient(white, #EC7D10);
+  background: linear-gradient(white, #EC7D10);
+
 }
 
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 #whalePic1{
   margin-top: 80px;
   height: 80px;
@@ -82,23 +92,22 @@
     }
 }
 
-nav {
+.nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: black;
+    background-color: tranparent;
     margin: 0;
     padding: 0;
-    text-align: left;
-    color: #197d7a;
     z-index: 1;
+    transition-duration: .1s;
 }
 
 nav ul {
     display: inline;
     margin: 2px;
     font-size: 16px;
-    float: right
+    float: left;
 }
 
 nav li {
@@ -119,6 +128,34 @@ nav a:hover {
     padding: 100px%;
 }
 
+.intro a:hover {
+    color: rgb(144, 25, 29);
+}
+
+.intro ul {
+    display: inline;
+    margin: 2px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro li {
+    display: inline;
+    padding: 10px;
+}
+
+.intro a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: .6s background;
+}
+
+nav a:hover {
+    background: rgb(144, 25, 29);
+    padding: 100px%;
+}
 body {
     font-size: 20px;
     line-height: 1.5;
