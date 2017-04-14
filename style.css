@@ -208,9 +208,10 @@ body {
     }
 }
 
-/*Projects Divs*/
+/*Homepage Typing Animation*/
 
 .intro1 {
+    font: bold 2em monospace;
     font: bold 2em monospace;
     color: white;
     border-right: .1em solid #848484;
@@ -223,18 +224,7 @@ body {
 
 .intro2 {
     font: bold 2em monospace;
-    -webkit-animation-delay: 7s;
-    animation-delay: 7s color: white;
-    border-right: .1em solid #848484;
-    width: calc(0.55em * 14);
-    width: 52ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
-}
-
-.intro2 {
-    font: bold 2em monospace;
+    font-family: 'Chewy', cursive;
     -webkit-animation-delay: 7s;
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
@@ -247,6 +237,7 @@ body {
 
 .intro3 {
     font: bold 2em monospace;
+    font-family: 'Chewy', cursive;
     -webkit-animation-delay: 7s;
     animation-delay: 7s color: white;
     border-right: .1em solid #848484;
