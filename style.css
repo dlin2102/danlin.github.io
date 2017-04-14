@@ -1,3 +1,6 @@
+
+/*Portfolio Page*/
+
 #myPortfolio {
     margin-top: 30px;
     background: #EA3546;
@@ -7,6 +10,8 @@
     padding: 100px;
 }
 
+/*About Me Page*/
+
 #aboutMe {
   margin-top: 30px;
   background: #EC7D10;
@@ -14,8 +19,27 @@
   background: -moz-linear-gradient(white, #EC7D10);
   background: linear-gradient(white, #EC7D10);
   padding: 100px;
-
 }
+
+#aboutMeContent{
+  background-color: transparent;
+  outline: .1em solid;
+  padding: 20px;
+}
+
+/*Page Heading Text*/
+.pageHeading{
+  font-family: 'Chewy', cursive;
+  font-size: 80px;
+  color: #EA3546;
+  margin: 0px;
+}
+
+#aboutMeHeading2{
+  padding-left: 30px;
+}
+
+/*Homepage Whale Pictures*/
 
 #whalePic1{
   margin-top: 80px;
@@ -24,6 +48,8 @@
 #whalePic2{
   height: 80px;
 }
+
+/*Homepage colorchange animation*/
 
 .intro {
     text-align: center;
@@ -90,6 +116,8 @@
     }
 }
 
+/*navbar stylings*/
+
 .nav {
     position: fixed;
     top: 0;
@@ -126,6 +154,8 @@ nav a:hover {
     padding: 100px%;
 }
 
+/*Home page and About me page animations for icons*/
+
 .intro a:hover, .contactMe a:hover {
     color: rgb(144, 25, 29);
 }
@@ -154,12 +184,17 @@ nav a:hover {
     background: rgb(144, 25, 29);
     padding: 100px%;
 }
+
+/*Body Styling*/
+
 body {
     font-size: 20px;
     line-height: 1.5;
     margin: 0;
     max-width: 100%;
 }
+
+/*Home page typewriter effect*/
 
 @-webkit-keyframes typing {
     from {
@@ -172,6 +207,8 @@ body {
         border-color: transparent;
     }
 }
+
+/*Projects Divs*/
 
 .intro1 {
     font: bold 2em monospace;
@@ -219,6 +256,8 @@ body {
     overflow: hidden;
     -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
 }
+
+/*Hidding other Sections - corresponding jquery in app.js*/
 
 .hidden {
     display: none;
