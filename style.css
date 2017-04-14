@@ -1,24 +1,22 @@
 #myPortfolio {
-    margin-top: 60px;
+    margin-top: 30px;
     background: #EA3546;
     background: -webkit-linear-gradient(white, #EA3546);
     background: -moz-linear-gradient(white, #EA3546);
     background: linear-gradient(white, #EA3546);
+    padding: 100px;
 }
 
 #aboutMe {
-  margin-top: 60px;
+  margin-top: 30px;
   background: #EC7D10;
   background: -webkit-linear-gradient(white, #EC7D10);
   background: -moz-linear-gradient(white, #EC7D10);
   background: linear-gradient(white, #EC7D10);
+  padding: 100px;
 
 }
 
-hr{
-  margin-left: 20px;
-  margin-right: 20px;
-}
 #whalePic1{
   margin-top: 80px;
   height: 80px;
@@ -128,23 +126,23 @@ nav a:hover {
     padding: 100px%;
 }
 
-.intro a:hover {
+.intro a:hover, .contactMe a:hover {
     color: rgb(144, 25, 29);
 }
 
-.intro ul {
+.intro ul, .contactMe ul  {
     display: inline;
     margin: 2px;
     text-align: center;
     font-size: 50px;
 }
 
-.intro li {
+.intro li, .contactMe li  {
     display: inline;
     padding: 10px;
 }
 
-.intro a {
+.intro a, .contactMe a  {
     display: inline-block;
     color: white;
     text-decoration: none;
