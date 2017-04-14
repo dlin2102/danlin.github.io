@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('#myPortfolio').addClass('hidden')
     $('#aboutMe').addClass('hidden')
 
-    $('#portfolio').on('click', function() {
+    $('.portfolio').on('click', function() {
         $('#myPortfolio').removeClass('hidden')
         $('#aboutMe').addClass('hidden')
         $('#homepage').addClass('hidden')
