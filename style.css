@@ -61,12 +61,8 @@ button:hover {
 
 /*Page Heading Text*/
 
-.pageHeading {
-    font-family: 'Chewy', cursive;
-    font-size: 80px;
-    color: black;
-    margin: 0px;
-    text-align: center;
+.portfolioHeading {
+padding-left: 400px;
 }
 
 .header {
@@ -309,14 +305,27 @@ body {
     width: 750px;
 }
 
-.intro2 {
+.slide-up {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
+    animation: slide-up 1s;
 }
 
 .intro3 {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
+}
+@keyframes slide-up {
+    from {
+        padding-top: 100px;
+        opacity: .25;
+        line-height: 25px;
+    }
+    to {
+        padding-top: 0;
+        opacity: 1;
+        line-height: 25px;
+    }
 }
 
 footer {
