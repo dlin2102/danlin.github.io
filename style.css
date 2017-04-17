@@ -53,18 +53,9 @@ button:hover {
 
 /*About Me Page*/
 
-#aboutMe {
-    margin-top: 30px;
-    background: #EA3546;
-    background: -webkit-linear-gradient(white, #EA3546);
-    background: -moz-linear-gradient(white, #EA3546);
-    background: linear-gradient(white, #EA3546);
-    padding: 100px;
-}
-
 #aboutMeContent {
-    background-color: transparent;
-    padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 
@@ -73,8 +64,9 @@ button:hover {
 .pageHeading {
     font-family: 'Chewy', cursive;
     font-size: 80px;
-    color: #EA3546;
+    color: black;
     margin: 0px;
+    text-align: center;
 }
 
 .header {
@@ -86,11 +78,23 @@ button:hover {
     padding-bottom: 100px;
 }
 
-#aboutMeHeading2 {
-    padding-left: 30px;
+.myStory{
+  background: url("images/myStory.jpeg");
+  width: 100%;
+  height: 422px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
 }
 
+#aboutMePic{
+padding-top: 200px;
+padding-left: 375px;
+}
 
+#aboutMeIntro{
+text-align: center;
+}
 /*Homepage Whale Pictures*/
 
 #whalePic1 {
@@ -254,7 +258,7 @@ nav a:hover {
 .portfoliocontactMe ul {
     display: inline;
     margin-left: 400px;
-    margin-right: 300px;
+    margin-right: 400px;
     font-size: 70px;
 }
 
@@ -323,6 +327,7 @@ footer {
 
 footer span {
     font-size: 12px;
+    text-align: center;
 }
 
 
