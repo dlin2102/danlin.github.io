@@ -3,31 +3,67 @@
 
 #myPortfolio {
     margin-top: 30px;
-    background: #EA3546;
-    background: -webkit-linear-gradient(white, #EA3546);
-    background: -moz-linear-gradient(white, #EA3546);
-    background: linear-gradient(white, #EA3546);
     padding: 100px;
+}
+.project1, .project2, .project3{
+
+}
+
+#Project1Image1, .Project1Image2, .Project1Image3{
+  height: 300px;
+  width: 450px;
+  outline: .1em solid grey;
+  margin-top: 40px;
+}
+
+.projectName {
+font-family: 'Lobster', cursive;
+font-size: 36px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+button {
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #EA3546;
+    border: 2px solid #EA3546;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #EA3546;
+    color: white;
 }
 
 /*About Me Page*/
 
 #aboutMe {
   margin-top: 30px;
-  background: #EC7D10;
-  background: -webkit-linear-gradient(white, #EC7D10);
-  background: -moz-linear-gradient(white, #EC7D10);
-  background: linear-gradient(white, #EC7D10);
+  background: #EA3546;
+  background: -webkit-linear-gradient(white, #EA3546);
+  background: -moz-linear-gradient(white, #EA3546);
+  background: linear-gradient(white, #EA3546);
   padding: 100px;
 }
 
 #aboutMeContent{
   background-color: transparent;
-  outline: .1em solid;
   padding: 20px;
 }
 
 /*Page Heading Text*/
+
 .pageHeading{
   font-family: 'Chewy', cursive;
   font-size: 80px;
@@ -146,7 +182,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    transition: .6s background;
+    transition: .4s background;
 }
 
 nav a:hover {
@@ -215,34 +251,23 @@ body {
     color: white;
     border-right: .1em solid #848484;
     width: calc(0.55em * 14);
-    width: 54ch;
+    width: 52ch;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
+    margin: auto;
+    text-align: center;
+    width: 750px;
 }
 
 .intro2 {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
-    animation-delay: 7s color: white;
-    border-right: .1em solid #848484;
-    width: calc(0.55em * 14);
-    width: 52ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
 }
 
 .intro3 {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
-    animation-delay: 7s color: white;
-    border-right: .1em solid #848484;
-    width: calc(0.55em * 14);
-    width: 52ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
 }
 
 /*Hiding other Sections - corresponding jquery in app.js*/
