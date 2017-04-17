@@ -1,30 +1,33 @@
-
 /*Portfolio Page*/
 
-#myPortfolio {
-    margin-top: 30px;
+#myPortfolioContent {
     padding: 100px;
 }
-.project1, .project2, .project3{
 
+#Project1Image1, .Project1Image2, .Project1Image3 {
+    height: 300px;
+    width: 450px;
+    outline: .1em solid grey;
+    margin-top: 20px;
+    border: 15px solid white;
 }
 
-#Project1Image1, .Project1Image2, .Project1Image3{
-  height: 300px;
-  width: 450px;
-  outline: .1em solid grey;
-  margin-top: 40px;
+#portfoliocontactMe {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .projectName {
-font-family: 'Lobster', cursive;
-font-size: 36px;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
 }
 
-p{
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
+
 button {
     padding: 10px 26px;
     text-align: center;
@@ -32,7 +35,8 @@ button {
     display: inline-block;
     font-size: 14px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
     background-color: white;
@@ -46,51 +50,65 @@ button:hover {
     color: white;
 }
 
+
 /*About Me Page*/
 
 #aboutMe {
-  margin-top: 30px;
-  background: #EA3546;
-  background: -webkit-linear-gradient(white, #EA3546);
-  background: -moz-linear-gradient(white, #EA3546);
-  background: linear-gradient(white, #EA3546);
-  padding: 100px;
+    margin-top: 30px;
+    background: #EA3546;
+    background: -webkit-linear-gradient(white, #EA3546);
+    background: -moz-linear-gradient(white, #EA3546);
+    background: linear-gradient(white, #EA3546);
+    padding: 100px;
 }
 
-#aboutMeContent{
-  background-color: transparent;
-  padding: 20px;
+#aboutMeContent {
+    background-color: transparent;
+    padding: 20px;
 }
+
 
 /*Page Heading Text*/
 
-.pageHeading{
-  font-family: 'Chewy', cursive;
-  font-size: 80px;
-  color: #EA3546;
-  margin: 0px;
+.pageHeading {
+    font-family: 'Chewy', cursive;
+    font-size: 80px;
+    color: #EA3546;
+    margin: 0px;
 }
 
-#aboutMeHeading2{
-  padding-left: 30px;
+.header {
+    background: url("https://www.dealfuel.com/wp-content/uploads/2015/06/color191.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
+
+#aboutMeHeading2 {
+    padding-left: 30px;
+}
+
 
 /*Homepage Whale Pictures*/
 
-#whalePic1{
-  margin-top: 80px;
-  height: 80px;
+#whalePic1 {
+    margin-top: 80px;
+    height: 80px;
 }
-#whalePic2{
-  height: 80px;
+
+#whalePic2 {
+    height: 80px;
 }
+
 
 /*Homepage colorchange animation*/
 
 .intro {
     text-align: center;
     background-size: 1600% 1600%;
-    height: 700px;
+    height: 800px;
     width: 100%;
     z-index: -1;
     animation: colorchange 15s ease infinite;
@@ -99,13 +117,16 @@ button:hover {
 }
 
 @keyframes colorchange {
-    0% {     /*coral*/
+    0% {
+        /*coral*/
         background: #ff6666;
     }
-    25% { /*rusty red*/
+    25% {
+        /*rusty red*/
         background: #E03616;
     }
-    50% { /*gold*/
+    50% {
+        /*gold*/
         background: #F9C80E;
     }
     75% {
@@ -152,6 +173,7 @@ button:hover {
     }
 }
 
+
 /*navbar stylings*/
 
 .nav {
@@ -190,25 +212,25 @@ nav a:hover {
     padding: 100px%;
 }
 
+
 /*Home page and About me page animations for icons*/
 
-.intro a:hover, .contactMe a:hover {
+.intro a:hover, .contactMe a:hover, .portfoliocontactMe a:hover {
     color: rgb(144, 25, 29);
 }
 
-.intro ul, .contactMe ul  {
+.intro ul, .contactMe ul {
     display: inline;
     margin: 2px;
-    text-align: center;
     font-size: 50px;
 }
 
-.intro li, .contactMe li  {
+.intro li, .contactMe li {
     display: inline;
     padding: 10px;
 }
 
-.intro a, .contactMe a  {
+.intro a, .contactMe a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -216,10 +238,31 @@ nav a:hover {
     transition: .6s background;
 }
 
+.portfoliocontactMe a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: .6s background;
+}
+
+.portfoliocontactMe li {
+    display: inline;
+    padding: 10px;
+}
+
+.portfoliocontactMe ul {
+    display: inline;
+    margin-left: 400px;
+    margin-right: 300px;
+    font-size: 70px;
+}
+
 nav a:hover {
     background: rgb(144, 25, 29);
     padding: 100px%;
 }
+
 
 /*Body Styling*/
 
@@ -229,6 +272,7 @@ body {
     margin: 0;
     max-width: 100%;
 }
+
 
 /*Home page typewriter effect*/
 
@@ -243,6 +287,7 @@ body {
         border-color: transparent;
     }
 }
+
 
 /*Homepage Typing Animation*/
 
@@ -269,6 +314,17 @@ body {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
 }
+
+footer {
+    padding: 20px;
+    color: white;
+    background: black;
+}
+
+footer span {
+    font-size: 12px;
+}
+
 
 /*Hiding other Sections - corresponding jquery in app.js*/
 
