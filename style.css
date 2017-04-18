@@ -308,7 +308,7 @@ body {
 .slide-up {
     font: bold 2em monospace;
     font-family: 'Chewy', cursive;
-    animation: slide-up 1s;
+    animation: slide-up 1.5s;
 }
 
 .intro3 {
@@ -319,7 +319,7 @@ body {
     from {
         padding-top: 100px;
         opacity: .25;
-        line-height: 25px;
+        line-height: 80px;
     }
     to {
         padding-top: 0;
