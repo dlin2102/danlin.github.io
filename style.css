@@ -115,7 +115,28 @@ text-align: center;
 
 
 /*Homepage colorchange animation*/
+@keyframes wiggle {
+  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
 
+a#wiggle {
+  display: inline-block;
+  animation: wiggle 1s infinite;
+}
+
+a#wiggle:hover {
+  animation: none;
+}
 .intro {
     text-align: center;
     background-size: 1600% 1600%;
@@ -248,6 +269,9 @@ nav a:hover {
     padding: 10px;
     transition: .6s background;
 }
+.homeIcons, #homepage{
+  text-align: center;
+}
 
 .portfoliocontactMe a {
     display: inline-block;
@@ -322,10 +346,7 @@ body {
     animation: slide-up 1.5s;
 }
 
-.intro3 {
-    font: bold 2em monospace;
-    font-family: 'Chewy', cursive;
-}
+
 @keyframes slide-up {
     from {
         padding-top: 100px;
