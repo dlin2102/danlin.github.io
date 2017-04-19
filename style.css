@@ -1,15 +1,17 @@
 /*Portfolio Page*/
 
 #myPortfolioContent {
-    padding: 100px;
+    padding: 75px 150px 75px 150px;
+    text-align: center;
 }
 
 #Project1Image1, .Project1Image2, .Project1Image3, .Project1Image4 {
     height: 300px;
     width: 450px;
-    outline: .1em solid grey;
     margin-top: 20px;
-    border: 15px solid white;
+    outline: solid thin;
+    outline-offset: 15px;
+    border:1px solid black;
 }
 
 #portfoliocontactMe {
@@ -18,9 +20,18 @@
     margin-right: 20%;
 }
 
+#Project1Image1, .Project1Image2, .Project1Image3, .Project1Image4{
+  margin-top: 40px;
+}
+
+.project1Repo{
+  margin-bottom: 40px;
+}
+
 .projectName {
     font-family: 'Lobster', cursive;
-    font-size: 36px;
+    font-size: 45px;
+    margin-left: 0;
 }
 
 p {
