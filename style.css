@@ -311,6 +311,7 @@ nav a:hover {
 .pushEffect {
     display: inline;
     text-indent: 8px;
+    text-align: center;
 }
 
 .pushEffect span {
