@@ -353,13 +353,14 @@ a.pulse:hover {
 }
 
 .pushEffect span {
-    animation: push 12.5s linear infinite 0s;
-    -ms-animation: push 12.5s linear infinite 0s;
-    -webkit-animation: push 12.5s linear infinite 0s;
+    animation: push 10s linear infinite 0s;
+    -ms-animation: push 10s linear infinite 0s;
+    -webkit-animation: push 10s linear infinite 0s;
     color: #05b68c;
     opacity: 0;
     overflow: hidden;
     position: absolute;
+    font-family: 'Lobster', cursive;
 }
 
 .pushEffect span:nth-child(2) {
@@ -378,12 +379,6 @@ a.pulse:hover {
     animation-delay: 7.5s;
     -ms-animation-delay: 7.5s;
     -webkit-animation-delay: 7.5s;
-}
-
-.pushEffect span:nth-child(5) {
-    animation-delay: 10s;
-    -ms-animation-delay: 10s;
-    -webkit-animation-delay: 10s;
 }
 
 
