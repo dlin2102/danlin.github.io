@@ -123,9 +123,9 @@ button:hover {
     height: 800px;
     width: 100%;
     z-index: -1;
-    animation: colorchange 15s ease infinite;
-    -webkit-animation: colorchange 15s ease infinite;
-    -moz-animation: colorchange 15s ease infinite;
+    animation: colorchange 25s ease infinite;
+    -webkit-animation: colorchange 25s ease infinite;
+    -moz-animation: colorchange 25s ease infinite;
 }
 
 @keyframes colorchange {
