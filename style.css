@@ -130,22 +130,22 @@ button:hover {
 
 @keyframes colorchange {
     0% {
-        /*coral*/
-        background: #ff6666;
+
+        background: #FF6978;
     }
     25% {
-        /*rusty red*/
-        background: #E03616;
+
+        background: #9E788F;
     }
     50% {
-        /*gold*/
-        background: #F9C80E;
+
+        background: #E8AEB7;
     }
     75% {
-        background: #2274A5;
+        background: #A2666F;
     }
     100% {
-        background: #03CEA4;
+        background: #FF6978;
     }
 }
 
