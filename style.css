@@ -77,12 +77,12 @@ button:hover {
 }
 
 .header {
-    background: url("https://www.dealfuel.com/wp-content/uploads/2015/06/color191.png");
+    background: url("images/myStory.jpeg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
-    padding-bottom: 100px;
+
 }
 
 .myStory {
