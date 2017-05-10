@@ -61,6 +61,7 @@ button:hover {
     color: white;
 }
 
+
 /*About Me Page*/
 
 #aboutMeContent {
@@ -130,66 +131,58 @@ button:hover {
 
 @keyframes colorchange {
     0% {
-
-        background: #05b68c;
+        background: #A2666F;
     }
     25% {
-
         background: #9E788F;
     }
     50% {
-
         background: #E8AEB7;
     }
     75% {
-        background: #A2666F;
+        background: #9E788F;
     }
     100% {
-        background: #05b68c;
+        background: #A2666F;
     }
 }
 
 @-webkit-keyframes colorchange {
-  0% {
-
-      background: #05b68c;
-  }
-  25% {
-
-      background: #9E788F;
-  }
-  50% {
-
-      background: #E8AEB7;
-  }
-  75% {
-      background: #A2666F;
-  }
-  100% {
-      background: #05b68c;
-  }
-  }
+    0% {
+        background: #A2666F;
+    }
+    25% {
+        background: #9E788F;
+    }
+    50% {
+        background: #E8AEB7;
+    }
+    75% {
+        background: #9E788F;
+    }
+    100% {
+        background: #A2666F;
+    }
+}
 
 @-moz-keyframes colorchange {
-  0% {
-
-      background: #05b68c;
-  }
-  25% {
-
-      background: #9E788F;
-  }
-  50% {
-
-      background: #E8AEB7;
-  }
-  75% {
-      background: #A2666F;
-  }
-  100% {
-      background: #05b68c;
-  }
+    0% {
+        background: #A2666F;
+    }
+    25% {
+        background: #9E788F;
+    }
+    50% {
+        background: #E8AEB7;
+    }
+    75% {
+        background: #9E788F;
+    }
+    100% {
+        background: #A2666F;
+    }
 }
+
 
 /*navbar stylings*/
 
