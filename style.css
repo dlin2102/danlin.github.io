@@ -570,3 +570,13 @@ footer span {
 .hidden {
     display: none;
 }
+/*MEDIA QUERY*/
+
+@media only screen and (max-width: 767px){
+    h1 {
+      text-align: center;
+    }
+    .intro{
+      height: 1600px;
+    }
+}

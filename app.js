@@ -32,8 +32,8 @@ $(document).ready(function() {
        });
 
        $('a[href*="pdf"]').click(function(e) {
-           e.preventDefault(); // stop the existing link from firing
-           var documentUrl = $(this).attr("href"); // get the url of the pdf
-           window.open(documentUrl, '_blank'); // open the pdf in a new window/tab
+           e.preventDefault();
+           var documentUrl = $(this).attr("href");
+           window.open(documentUrl, '_blank');
          });
 })
