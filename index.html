@@ -14,13 +14,16 @@
     <link rel="icon" type="image/gif" href="images/animated_favicon1.gif">
     <script src="app.js"></script>
 </head>
+<div id="preloader">
+    <img src="images/spining whales.gif" />
+</div>
 <header>
 
     <nav>
         <ul class="nav">
-            <li><a id="home">Home</a></li>
-            <li><a class="portfolio">Portfolio</a></li>
-            <li><a id="me">About Me</a></li>
+            <li><a id="Home" href="#homepage">Home</a></li>
+            <li><a id="portfolio" href="#myPortfolio">Portfolio</a></li>
+            <li><a id="me" href="#aboutMe">About Me</a></li>
             <li><a href="images/resume.pdf">Resume</a></li>
         </ul>
     </nav>
@@ -32,25 +35,52 @@
     <!-- Opening Page -->
     <div class="subpage" id="homepage">
         <div class="intro">
-            <img id="whalePic1" src="images/whale3.png" />
-            <img id="whalePic2" src="images/whale.svg" />
-            <img id="whalePic2" src="images/whale4.svg" />
-            <h2 class="intro1">Whale, hello there! I'm Dan. </h2>
-            <h2 class="slide-up">I like to create things with code.</h2>
-            <h2 class="slide-up">Check out my work!</h2>
+            <img id="myface" src="images/face.png" />
+            <img id="follow" src="images/follow.png" />
+            <h1 class="intro1">Whale, hello there! I'm Dan. </h1>
+            <h2 class="slide-up">Web Developer + Design Enthusiast</h2>
 
             <ul class="homeIcons">
-                <li><a class="portfolio pulse"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                <li><a class="portfolio" href="#myPortfolio"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
                 <li><a href="https://github.com/dlin2102"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/danlin2102/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             </ul>
         </div>
     </div>
 
+    <!-- About Me -->
+    <div class="subpage" id="aboutMe">
+        <img class="flag" src="images/flag.png" />
+        <img class="aboutMeHeading" src="images/aboutMeText.png" />
+        <div class="aboutMeColumn1">
+            <img class="surf" src="images/profile surf.jpg" />
+            <h1 id="rotatingWords">
+                <div class="pushEffect">
+                <span>Front End Developer.</span>
+                <span>Avid Dreamer.</span>
+                <span>Storyteller.</span>
+                <span>Design Enthusiast.</span>
+                </div>
+        </h1>
+        </div>
+        <div class="aboutMeColumn2">
+            <img class="hi" src="images/hi.png" />
+            <p>Talented front-end developer with a passion for design. I love the thrill of bringing ideas alive with code and am constantly striving for ways to grow and improve.</p>
+            <p>When I'm not coding, I like to explore exotic foods with friends and when I have the time, read.</p>
+            <p>And countary to popular belief, does not have an unhealthy obsession with whales. However, the same can not be said for puns. ^^</p>
+        </div>
+        <div class="aboutMeCloser">
+            <img class="justKeepSwimming" src="images/keepswimming.png" />
+        </div>
+        <img class="flag" src="images/flag.png" />
+    </div>
+
     <!-- portfolio -->
     <div class="subpage" id="myPortfolio">
         <div class="header">
-            <img class="portfolioHeading" src="images/portfolio.png" />
+            <div class="myStory">
+                <img class="portfolioHeading" src="images/portfolio2.png" />
+            </div>
         </div>
         <div id="myPortfolioContent">
             <div id="project3">
@@ -111,49 +141,23 @@
             </div>
 
         </div>
-
-
-        <footer>
-            <p>@2017 Created with &#10084; by Dan Lin </p>
-        </footer>
     </div>
-
-    <!-- About Me -->
-    <div class="subpage" id="aboutMe">
-        <div class="myStory">
-            <img id="aboutMePic" src="images/aboutMeText.png"/>
-        </div>
-        <!-- <h1 class="pageHeading" id="aboutMeHeading1">My</h1>
-        <h1 class="pageHeading" id="aboutMeHeading2">Story</h1> -->
-        <div id="aboutMeContent">
-            <!-- <img style=inline src="images/hi.png"/> -->
-            <h1 id="aboutMeIntro">I'm Dan!</h1>
-            <h1 id="rotatingWords">I am a
-                <div class="pushEffect">
-                <span>Developer.</span>
-                <span>Dreamer.</span>
-                <span>Storyteller.</span>
-                <span>Creater.</span>
-                </div>
-          </h1>
-            <p>I've always been an avid dreamer and loved creating something from nothing. At my past position, the most exciting part of my job was maintaining our Wordpress site. Once I started exploring further into programming, I realized
-                that it was a perfect fit for me. It was exciting and fun. The pool of knowledge is endless and you can singlehandedly bring your visions to life!</p>
-            <p>GA has been an amazing experience. I've been pushed to my limit and absorbed an insane amount of skills with the support of my fellow classmates, the GA community, and the DMV tech community. GA has equipped me with the tools, confidence,
-                and technical skills to become a full stack developer. I am excited to continue to grow as a programmer and to create new and beautiful apps.</p>
-        </div>
-        <div class="portfoliocontactMe">
-            <img id="portfoliocontactMe" src="images/ContactMeToday1.png" />
-            <ul class="portfolioIcons">
-                <li><a href="https://github.com/dlin2102"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/danlin2102/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:dlin2102@gmail.com?Subject=Wanted%20to%20connect" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-            </ul>
-        </div>
-        <footer>
-            <p>@2017 Created with &#10084; by Dan Lin </p>
-        </footer>
+    <div class="portfoliocontactMe">
+        <img id="portfoliocontactMe" src="images/ContactMeToday1.png" />
+        <ul class="portfolioIcons">
+            <li><a href="https://github.com/dlin2102"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/danlin2102/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:dlin2102@gmail.com?Subject=Wanted%20to%20connect" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        </ul>
     </div>
+    <div class="end">
+        <!-- SWIMMING WHALE GIF -->
 
+
+    </div>
+    <footer>
+        <p>@2017 Code and Design by Dan Lin </p>
+    </footer>
 
 </body>
 

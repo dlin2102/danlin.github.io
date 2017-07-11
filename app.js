@@ -1,24 +1,10 @@
+$(window).on('load', _ => {
+    $('#preloader').delay(2000).fadeOut('slow');
+    $('body').delay(0).css({'overflow':'visible'});
+})
+
 $(document).ready(function() {
-    $('#myPortfolio').addClass('hidden')
-    $('#aboutMe').addClass('hidden')
-
-    $('.portfolio').on('click', function() {
-        $('#myPortfolio').removeClass('hidden')
-        $('#aboutMe').addClass('hidden')
-        $('#homepage').addClass('hidden')
-    })
-
-    $('#me').on('click', function() {
-        $('#aboutMe').removeClass('hidden')
-        $('#myPortfolio').addClass('hidden')
-        $('#homepage').addClass('hidden')
-    })
-
-    $('#home').on('click', function() {
-        $('#homepage').removeClass('hidden')
-        $('#myPortfolio').addClass('hidden')
-        $('#aboutMe').addClass('hidden')
-    })
+    // To make nav bar only visable on scroll
     var scroll_start = 0;
        var startchange = $('.nav');
        var offset = startchange.offset();
@@ -31,6 +17,7 @@ $(document).ready(function() {
            }
        });
 
+// To open resume in separate tab
        $('a[href*="pdf"]').click(function(e) {
            e.preventDefault();
            var documentUrl = $(this).attr("href");

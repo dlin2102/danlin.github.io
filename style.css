@@ -1,4 +1,130 @@
+#preloader {
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   background-color: rgb(38, 38,	38)	;
+   z-index:2299;
+   height: 100vh;
+
+ }
+
+ #preloader img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 300px;
+   height: 300px;
+   margin-top: -150px; /* Half the height */
+   margin-left: -150px; /* Half the width */
+}
+/*navbar stylings*/
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: tranparent;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    transition-duration: .1s;
+    text-align: center;
+}
+
+nav ul {
+    display: inline;
+    margin: 2px;
+    font-size: 18px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: .4s background;
+}
+
+nav a:hover {
+    background: rgb(144, 25, 29);
+    padding: 100px%;
+}
+
+/*Homepage Whale Pictures*/
+
+#myface {
+    margin-top: 150px;
+    height: 150px;
+    margin-left: 280px;
+}
+#follow{
+  height: 85px;
+  margin-bottom: 35px;
+
+}
+
+/*Homepage whale animation */
+    .intro {
+    text-align: center;
+    background-size: 1600% 1600%;
+    width: 100%;
+    height: 800px;
+    background: url("images/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body, html {
+    height: 100%;
+}
+/*Home page and About me page animations for icons*/
+
+.intro a:hover, .contactMe a:hover, .portfoliocontactMe a:hover {
+    color: rgb(144, 25, 29);
+}
+
+.intro ul, .contactMe ul {
+    display: inline;
+    margin: 2px;
+    font-size: 50px;
+}
+
+.intro li, .contactMe li {
+    display: inline;
+    padding: 10px;
+}
+
+.intro a, .contactMe a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: .6s background;
+}
+
+.homeIcons, #homepage {
+    text-align: center;
+}
+
+
+
+
+
 /*Portfolio Page*/
+.portfolioHeading {
+    margin-left: 35%;
+    margin-top: 25px
+}
 
 #myPortfolioContent {
     padding: 75px 150px 75px 150px;
@@ -61,37 +187,33 @@ button:hover {
     color: white;
 }
 
+/*Follow Whale*/
+.follow{
+  background-color: #ffeb3b;
+  text-align: center;
+  padding: 25px;
+}
 
 /*About Me Page*/
-
-#aboutMeContent {
-    padding-left: 100px;
-    padding-right: 100px;
+.flag{
+  margin-left: 10%;
 }
-
-
-/*Page Heading Text*/
-
-.portfolioHeading {
-    padding-left: 400px;
+.aboutMeHeading{
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 75px;
 }
-
-.header {
-    background: url("images/myStory.jpeg");
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 200px;
-
+.aboutMeColumn1{
+width: 480px;
+float:left;
+margin-left: 85px;
 }
-
-.myStory {
-    background: url("images/myStory.jpeg");
-    width: 100%;
-    height: 422px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
+.aboutMeColumn2{
+width: 480px;
+float: right;
+margin-right: 85px;
+border: solid;
+padding: 20px;
 }
 
 #aboutMePic {
@@ -103,161 +225,20 @@ button:hover {
     text-align: center;
 }
 
-
-/*Homepage Whale Pictures*/
-
-#whalePic1 {
-    margin-top: 80px;
-    height: 80px;
-}
-
-#whalePic2 {
-    height: 80px;
-}
-
-
-/*Homepage colorchange animation*/
-
-.intro {
-    text-align: center;
-    background-size: 1600% 1600%;
-    height: 800px;
-    width: 100%;
-    z-index: -1;
-    animation: colorchange 25s ease infinite;
-    -webkit-animation: colorchange 25s ease infinite;
-    -moz-animation: colorchange 25s ease infinite;
-}
-
-@keyframes colorchange {
-    0% {
-        background: #A2666F;
-    }
-    25% {
-        background: #9E788F;
-    }
-    50% {
-        background: #E8AEB7;
-    }
-    75% {
-        background: #9E788F;
-    }
-    100% {
-        background: #A2666F;
-    }
-}
-
-@-webkit-keyframes colorchange {
-    0% {
-        background: #A2666F;
-    }
-    25% {
-        background: #9E788F;
-    }
-    50% {
-        background: #E8AEB7;
-    }
-    75% {
-        background: #9E788F;
-    }
-    100% {
-        background: #A2666F;
-    }
-}
-
-@-moz-keyframes colorchange {
-    0% {
-        background: #A2666F;
-    }
-    25% {
-        background: #9E788F;
-    }
-    50% {
-        background: #E8AEB7;
-    }
-    75% {
-        background: #9E788F;
-    }
-    100% {
-        background: #A2666F;
-    }
-}
-
-
-/*navbar stylings*/
-
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: tranparent;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    transition-duration: .1s;
-}
-
-nav ul {
-    display: inline;
-    margin: 2px;
-    font-size: 16px;
-    float: left;
-    font-family: 'Raleway', sans-serif;
-}
-
-nav li {
-    display: inline;
-    padding: 10px;
-}
-
-nav a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    transition: .4s background;
-}
-
-nav a:hover {
-    background: rgb(144, 25, 29);
-    padding: 100px%;
-}
-
-
-/*Home page and About me page animations for icons*/
-
-.intro a:hover, .contactMe a:hover, .portfoliocontactMe a:hover {
-    color: rgb(144, 25, 29);
-}
-
-.intro ul, .contactMe ul {
-    display: inline;
-    margin: 2px;
-    font-size: 50px;
-}
-
-.intro li, .contactMe li {
-    display: inline;
-    padding: 10px;
-}
-
-.intro a, .contactMe a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    transition: .6s background;
-}
-
-.homeIcons, #homepage {
-    text-align: center;
-}
-
 #rotatingWords {
-    margin-left: 400px;
+  margin-left: 130px;
 }
 
+.justKeepSwimming{
+  margin-left: 450px;
+  background: url("images/gold arrow.gif");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/*arrow image*/
 .pulse {
+    height: 100px;
     -webkit-animation: pulse 1s linear infinite;
     -moz-animation: pulse 1s linear infinite;
     -ms-animation: pulse 1s linear infinite;
@@ -467,6 +448,7 @@ a.pulse:hover {
     }
 }
 
+
 .portfoliocontactMe a {
     display: inline-block;
     color: black;
@@ -502,36 +484,11 @@ body {
     max-width: 100%;
 }
 
-
-/*Home page typewriter effect*/
-
-@-webkit-keyframes typing {
-    from {
-        width: 0;
-    }
-}
-
-@-webkit-keyframes blink-caret {
-    50% {
-        border-color: transparent;
-    }
-}
-
-
 /*Homepage Typing Animation*/
 
 .intro1 {
-    font: bold 2em monospace;
-    color: white;
-    border-right: .1em solid #848484;
-    width: calc(0.55em * 14);
-    width: 52ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 3s steps(31, end), blink-caret .5s step-end infinite alternate;
-    margin: auto;
-    text-align: center;
-    width: 750px;
+  font: bold 2em monospace;
+  font-family: 'Chewy', cursive;
 }
 
 .slide-up {
@@ -564,12 +521,6 @@ footer span {
     text-align: center;
 }
 
-
-/*Hiding other Sections - corresponding jquery in app.js*/
-
-.hidden {
-    display: none;
-}
 /*MEDIA QUERY*/
 
 @media only screen and (max-width: 767px){
