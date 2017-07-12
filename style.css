@@ -1,26 +1,29 @@
 /*preloader*/
 
 #preloader {
-   position:fixed;
-   top:0;
-   left:0;
-   right:0;
-   bottom:0;
-   background-color: rgb(38, 38,	38)	;
-   z-index:2299;
-   height: 100vh;
-
- }
-
- #preloader img {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 300px;
-   height: 300px;
-   margin-top: -150px; /* Half the height */
-   margin-left: -150px; /* Half the width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(38, 38, 38);
+    z-index: 2299;
+    height: 100vh;
 }
+
+#preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    /* Half the height */
+    margin-left: -150px;
+    /* Half the width */
+}
+
+
 /*navbar stylings*/
 
 .nav {
@@ -61,6 +64,7 @@ nav a:hover {
     padding: 100px%;
 }
 
+
 /*Homepage*/
 
 #myface {
@@ -68,13 +72,16 @@ nav a:hover {
     height: 150px;
     margin-left: 280px;
 }
-#follow{
-  height: 85px;
-  margin-bottom: 35px;
+
+#follow {
+    height: 85px;
+    margin-bottom: 35px;
 }
 
+
 /*Homepage whale animation */
-    .intro {
+
+.intro {
     text-align: center;
     width: 100vw;
     background: url("images/giphy.gif");
@@ -83,6 +90,7 @@ nav a:hover {
     background-position: center;
     height: 100vh;
 }
+
 
 /*Home page and contact me page animations for icons*/
 
@@ -113,32 +121,40 @@ nav a:hover {
     text-align: center;
 }
 
+
 /*About Me Page*/
-.flag{
-  margin-left: 10%;
+
+.flag {
+    display: block;
+    margin: auto;
+    width: 80%;
 }
-.aboutMeHeading{
-  margin: auto;
-  width: 50%;
-  display: block;
-  margin-bottom: 75px;
+
+.aboutMeHeading {
+    margin: auto;
+    width: 50%;
+    display: block;
+    margin-bottom: 75px;
 }
-.aboutMeColumn1{
-width: 460px;
-float:left;
-margin-left: 85px;
+
+.aboutMeColumn1 {
+    width: 460px;
+    float: left;
+    margin-left: 85px;
 }
-.aboutMeColumn2{
-width: 460px;
-float: right;
-margin-right: 85px;
-border: solid;
-padding: 20px;
+
+.aboutMeColumn2 {
+    width: 460px;
+    float: right;
+    margin-right: 85px;
+    border: solid;
+    padding: 20px;
 }
 
 #aboutMePic {
     padding-top: 200px;
-    padding-left: 375px;3
+    padding-left: 375px;
+    3
 }
 
 #aboutMeIntro {
@@ -146,15 +162,16 @@ padding: 20px;
 }
 
 #rotatingWords {
-  margin-left: 130px;
+    margin-left: 130px;
 }
 
-.justKeepSwimming{
-  margin-left: 450px;
-  background: url("images/gold arrow.gif");
-  background-repeat: no-repeat;
-  background-position: bottom;
+.justKeepSwimming {
+    margin-left: 450px;
+    background: url("images/gold arrow.gif");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
+
 
 /*Push Effect for rotating words in about me section*/
 
@@ -280,7 +297,9 @@ padding: 20px;
     }
 }
 
+
 /*Portfolio Page*/
+
 .portfolioHeading {
     margin-left: 35%;
     margin-top: 25px
@@ -291,7 +310,7 @@ padding: 20px;
     text-align: center;
 }
 
-#Project1Image1,.Project1Image2, .Project1Image3, .Project1Image4 {
+#Project1Image1, .Project1Image2, .Project1Image3, .Project1Image4 {
     height: 300px;
     width: 450px;
     outline: solid thin;
@@ -343,6 +362,7 @@ button:hover {
     color: white;
 }
 
+
 /*contact me section at the end*/
 
 .portfoliocontactMe a {
@@ -380,11 +400,12 @@ body {
     max-width: 100%;
 }
 
+
 /*Homepage Typing Animation*/
 
 .intro1 {
-  font: bold 2em monospace;
-  font-family: 'Chewy', cursive;
+    font: bold 2em monospace;
+    font-family: 'Chewy', cursive;
 }
 
 .intro2 {
@@ -403,13 +424,14 @@ footer span {
     text-align: center;
 }
 
-/*MEDIA QUERY*/
 
-@media only screen and (max-width: 767px){
+/*MEDIA QUERY Incomplete*/
+
+@media only screen and (max-width: 767px) {
     h1 {
-      text-align: center;
+        text-align: center;
     }
-    .intro{
-      height: 1600px;
+    .intro {
+        height: 1600px;
     }
 }
