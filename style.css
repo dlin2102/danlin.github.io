@@ -66,6 +66,15 @@ nav a:hover {
 
 
 /*Homepage*/
+.intro1 {
+    font: bold 2em monospace;
+    font-family: 'Chewy', cursive;
+}
+
+.intro2 {
+    font: bold 2em monospace;
+    font-family: 'Chewy', cursive;
+}
 
 #myface {
     margin-top: 150px;
@@ -390,28 +399,7 @@ button:hover {
     width: 30%;
 }
 
-
-/*Body Styling*/
-
-body {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 0;
-    max-width: 100%;
-}
-
-
-/*Homepage Typing Animation*/
-
-.intro1 {
-    font: bold 2em monospace;
-    font-family: 'Chewy', cursive;
-}
-
-.intro2 {
-    font: bold 2em monospace;
-    font-family: 'Chewy', cursive;
-}
+/*Footer*/
 
 footer {
     padding: 20px;
@@ -424,6 +412,14 @@ footer span {
     text-align: center;
 }
 
+/*Body Styling*/
+
+body {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 100%;
+}
 
 /*MEDIA QUERY Incomplete*/
 
