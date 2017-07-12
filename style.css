@@ -166,10 +166,14 @@ nav a:hover {
 }
 
 .justKeepSwimming {
-    margin-left: 450px;
     background: url("images/gold arrow.gif");
     background-repeat: no-repeat;
     background-position: bottom;
+}
+.aboutMeCloser{
+  display: block;
+  margin: 0 auto;
+  width: 30%;
 }
 
 
@@ -380,14 +384,10 @@ button:hover {
 
 .portfoliocontactMe ul {
     display: inline;
-    margin-left: 400px;
-    margin-right: 400px;
     font-size: 70px;
-}
-
-nav a:hover {
-    background: rgb(144, 25, 29);
-    padding: 100px%;
+    display: block;
+    margin: auto;
+    width: 30%;
 }
 
 
