@@ -76,14 +76,17 @@ nav a:hover {
 /*Homepage whale animation */
     .intro {
     text-align: center;
-    background-size: 1600% 1600%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
     width: 100%;
-    height: 800px;
     background: url("images/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 /*Home page and contact me page animations for icons*/
