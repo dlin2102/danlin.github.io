@@ -80,7 +80,7 @@ nav a:hover {
     left:0;
     right:0;
     bottom:0;
-    width: 100%;
+    width: 100vw;
     background: url("images/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,8 +123,9 @@ nav a:hover {
   margin-left: 10%;
 }
 .aboutMeHeading{
-  margin-left: 350px;
-  margin-right: 350px;
+  margin: auto;
+  width: 50%;
+  display: block;
   margin-bottom: 75px;
 }
 .aboutMeColumn1{
