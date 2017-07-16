@@ -66,14 +66,10 @@ nav a:hover {
 
 
 /*Homepage*/
-.intro1 {
-    font: bold 2em monospace;
-    font-family: 'Martel Sans', sans-serif;
-}
-
-.intro2 {
-    font: bold 2em monospace;
-    font-family: 'Martel Sans', sans-serif;
+.intro1, .intro2  {
+    /*font: bold 2em monospace;*/
+    font-family: Fredoka One;
+    font-size: 1.7em;
 }
 
 #myface {
