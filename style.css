@@ -67,7 +67,6 @@ nav a:hover {
 
 /*Homepage*/
 .intro1, .intro2  {
-    /*font: bold 2em monospace;*/
     font-family: Fredoka One;
     font-size: 1.7em;
 }
@@ -187,7 +186,7 @@ nav a:hover {
 .pushEffect {
     display: inline;
     text-indent: 8px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .pushEffect span {
