@@ -74,14 +74,12 @@ nav a:hover {
 #myface {
     margin-top: 150px;
     height: 150px;
-    margin-left: 280px;
+    margin-left: 190px;
+    background: url("images/follow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 175px;
 }
-
-#follow {
-    height: 85px;
-    margin-bottom: 35px;
-}
-
 
 /*Homepage whale animation */
 
@@ -93,6 +91,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    overflow: scroll;
 }
 
 
@@ -123,8 +122,12 @@ nav a:hover {
 
 .homeIcons, #homepage {
     text-align: center;
+    /*background: url("images/arrow-down2.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+    background-size: 80px 60px;*/
 }
-
 
 /*About Me Page*/
 
@@ -173,11 +176,16 @@ nav a:hover {
     background: url("images/gold arrow.gif");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 150px 130px;
+    display: block;
+    margin: auto;
+    width: 100%;
 }
 .aboutMeCloser{
   display: block;
   margin: 0 auto;
   width: 30%;
+  left: 50%;
 }
 
 
@@ -309,8 +317,9 @@ nav a:hover {
 /*Portfolio Page*/
 
 .portfolioHeading {
-    margin-left: 29%;
-    margin-top: 25px
+  display: block;
+   margin: auto;
+   width: 50%;
 }
 
 #myPortfolioContent {
@@ -370,7 +379,21 @@ button:hover {
     color: white;
 }
 
-
+/*thanks for stopping by*/
+.end{
+  text-align: center;
+  width: 100vw;
+  background: url("images/ocean.png");
+  z-index: -1;
+  background-position: center;
+}
+.pinkWhale{
+  background: url("images/endbubble.gif");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 175px;
+  margin-top: 50px;
+}
 /*contact me section at the end*/
 
 .portfoliocontactMe a {
@@ -384,6 +407,7 @@ button:hover {
 .portfoliocontactMe li {
     display: inline;
     padding: 10px;
+      /*background-color: white;*/
 }
 
 .portfoliocontactMe ul {
@@ -394,16 +418,21 @@ button:hover {
     width: 30%;
 }
 
+/*#portfoliocontactMe{
+  background-color: white;
+}*/
+
 /*Footer*/
 
 footer {
     padding: 20px;
-    color: white;
-    background: black;
+    color: black;
+    /*background: #ffdb67;*/
+    background: #faebd7;
 }
 
-footer span {
-    font-size: 12px;
+footer p {
+    font-size: 14px;
     text-align: center;
 }
 
