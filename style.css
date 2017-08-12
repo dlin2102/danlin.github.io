@@ -407,7 +407,6 @@ button:hover {
 .portfoliocontactMe li {
     display: inline;
     padding: 10px;
-      /*background-color: white;*/
 }
 
 .portfoliocontactMe ul {
@@ -418,17 +417,19 @@ button:hover {
     width: 30%;
 }
 
-/*#portfoliocontactMe{
-  background-color: white;
-}*/
-
+.footerContainer{
+  background-image: url("images/beach.png");
+  background-size: cover;
+}
 /*Footer*/
 
 footer {
     padding: 20px;
     color: black;
-    /*background: #ffdb67;*/
-    background: #faebd7;
+    /*background: #faebd7;*/
+    margin-top: 110px;
+    background-image: url("images/shell collection.png");
+    background-repeat: no-repeat;
 }
 
 footer p {
