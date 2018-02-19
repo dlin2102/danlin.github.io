@@ -383,7 +383,7 @@ button:hover {
 .end{
   text-align: center;
   width: 100vw;
-  background: url("images/ocean.png");
+  /*background: url("images/ocean.png");*/
   z-index: -1;
   background-position: center;
 }
