@@ -75,7 +75,7 @@ nav a:hover {
     margin-top: 150px;
     height: 150px;
     margin-left: 190px;
-    background: url("images/follow.png");
+    /*background: url("images/follow.png");*/
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 175px;
@@ -383,7 +383,7 @@ button:hover {
 .end{
   text-align: center;
   width: 100vw;
-  /*background: url("images/ocean.png");*/
+  background: url("images/ocean.png");
   z-index: -1;
   background-position: center;
 }
